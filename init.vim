@@ -1,12 +1,14 @@
 """"""""""""""""""""""""""""""""""""""""
 " => General setup
 """"""""""""""""""""""""""""""""""""""""
+let mapleader = " "
+
 set encoding=UTF-8
 
 set completeopt-=preview " For No Previews
 
 " Timeout
-set timeoutlen=250
+set timeoutlen=500
 
 " Show line number
 set number
@@ -94,10 +96,18 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Make adjusting split sizes a bit more friendly
-noremap <silent> <C-Left> :vertical resize +3<CR>
-noremap <silent> <C-Right> :vertical resize -3<CR>
-noremap <silent> <C-Up> :resize +3<CR>
-noremap <silent> <C-Down> :resize -3<CR>
+noremap <silent> <C-Left> :vertical resize -3<CR>
+noremap <silent> <C-Right> :vertical resize +3<CR>
+noremap <silent> <C-Up> :resize -3<CR>
+noremap <silent> <C-Down> :resize +3<CR>
+
+" Change 2 splits windows from vert to horiz or horiz to vert
+map <leader>th <C-w>t<C-w>h
+map <leader>tk <C-w>t<C-w>k
+""""""""""""""""""""""""""""""""""""""""
+" => Open terminal inside Vim
+""""""""""""""""""""""""""""""""""""""""
+map <leader>tt :vnew term://powershell.exe<CR>
 """"""""""""""""""""""""""""""""""""""""
 " => Other
 """"""""""""""""""""""""""""""""""""""""

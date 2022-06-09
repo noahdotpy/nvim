@@ -1,1 +1,1 @@
-nmap <space> :WhichKey '<Space>' <CR>
+nmap <leader> :WhichKey '<leader>' <CR>
