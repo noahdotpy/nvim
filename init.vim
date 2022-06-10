@@ -113,3 +113,5 @@ map <leader>tt :vnew term://powershell.exe<CR>
 " => Other
 """"""""""""""""""""""""""""""""""""""""
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
