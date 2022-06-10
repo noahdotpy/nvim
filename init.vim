@@ -105,6 +105,12 @@ noremap <silent> <C-Down> :resize +3<CR>
 " Change 2 splits windows from vert to horiz or horiz to vert
 map <leader>th <C-w>t<C-w>h
 map <leader>tk <C-w>t<C-w>k
+
+""""""""""""""""""""""""""""""""""""""""
+" => Tab - Indent, Shift+Tab - Unindent
+""""""""""""""""""""""""""""""""""""""""
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
 """"""""""""""""""""""""""""""""""""""""
 " => Open terminal inside Vim
 """"""""""""""""""""""""""""""""""""""""
@@ -113,5 +119,3 @@ map <leader>tt :vnew term://powershell.exe<CR>
 " => Other
 """"""""""""""""""""""""""""""""""""""""
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
-nnoremap <Tab> >>
-nnoremap <S-Tab> <<
