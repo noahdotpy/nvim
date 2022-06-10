@@ -62,6 +62,7 @@ Plug 'navarasu/onedark.nvim' " Onedark colorschemes
 Plug 'chriskempson/base16-vim' " Base16 colorschemes
 
 "{{ Other }}
+Plug 'tpope/vim-fugitive' " Git integration (:Git {command})
 Plug 'tc50cal/vim-terminal' " Vim Terminal
 Plug 'preservim/nerdtree' " NerdTree file explorer
 Plug 'lifepillar/pgsql.vim' " Syntax highlighting & auto-completion for PostgreSQL
