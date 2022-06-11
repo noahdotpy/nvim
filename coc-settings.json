@@ -2,7 +2,8 @@
 	"coc.preferences.formatOnSaveFiletypes": ["python"],
 	// Python config
 	"python.linting.enabled": true,
-	"pytohn.linting.pylintEnabled": true,
+	"python.linting.pylintEnabled": true,
+    "python.formatting.provider": "autopep8",
 	// Explorer
 	"explorer.width": 30,
 	"explorer.icon.enableNerdfont": true,
