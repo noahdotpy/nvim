@@ -110,6 +110,8 @@ map <leader>tk <C-w>t<C-w>k
 """"""""""""""""""""""""""""""""""""""""
 nnoremap <Tab> >>
 nnoremap <S-Tab> <<
+xnoremap <Tab> >
+xnoremap <S-Tab> <
 """"""""""""""""""""""""""""""""""""""""
 " => CTRL+A to select whole file
 """"""""""""""""""""""""""""""""""""""""
