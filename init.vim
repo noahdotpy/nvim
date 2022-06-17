@@ -105,12 +105,19 @@ noremap <silent> <C-Down> :resize +3<CR>
 " Change 2 splits windows from vert to horiz or horiz to vert
 map <leader>th <C-w>t<C-w>h
 map <leader>tk <C-w>t<C-w>k
-
 """"""""""""""""""""""""""""""""""""""""
 " => Tab - Indent, Shift+Tab - Unindent
 """"""""""""""""""""""""""""""""""""""""
 nnoremap <Tab> >>
 nnoremap <S-Tab> <<
+""""""""""""""""""""""""""""""""""""""""
+" => CTRL+A to select whole file
+""""""""""""""""""""""""""""""""""""""""
+nnoremap <leader>a gg <S-v> G
+""""""""""""""""""""""""""""""""""""""""
+" => Comment Keybinds
+""""""""""""""""""""""""""""""""""""""""
+noremap <leader>c :Commentary<CR>
 """"""""""""""""""""""""""""""""""""""""
 " => Open terminal inside Vim
 """"""""""""""""""""""""""""""""""""""""
