@@ -79,6 +79,14 @@ colorscheme PaperColor
 """"""""""""""""""""""""""""""""""""""""
 " => Source other files
 """"""""""""""""""""""""""""""""""""""""
+" Linux
+source ~/.config/nvim/airline.vim
+source ~/.config/nvim/closetag.vim
+source ~/.config/nvim/which-key.vim
+source ~/.config/nvim/coc.vim
+source ~/.config/nvim/nerdtree.vim
+source ~/.config/nvim/tagbar.vim
+" Windows
 source $HOME/Appdata/Local/nvim/airline.vim
 source $HOME/Appdata/Local/nvim/closetag.vim
 source $HOME/Appdata/Local/nvim/which-key.vim
