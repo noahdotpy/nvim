@@ -1,6 +1,8 @@
 """"""""""""""""""""""""""""""""""""""""
 " => General setup
 """"""""""""""""""""""""""""""""""""""""
+syntax on
+
 let mapleader = " "
 
 set encoding=UTF-8
@@ -75,17 +77,10 @@ call plug#end()
 let g:onedark_config = {
     \ 'style': 'darker'
 \}
-colorscheme PaperColor
+colorscheme onedark
 """"""""""""""""""""""""""""""""""""""""
 " => Source other files
 """"""""""""""""""""""""""""""""""""""""
-" Linux
-source ~/.config/nvim/airline.vim
-source ~/.config/nvim/closetag.vim
-source ~/.config/nvim/which-key.vim
-source ~/.config/nvim/coc.vim
-source ~/.config/nvim/nerdtree.vim
-source ~/.config/nvim/tagbar.vim
 " Windows
 source $HOME/Appdata/Local/nvim/airline.vim
 source $HOME/Appdata/Local/nvim/closetag.vim
@@ -114,7 +109,7 @@ noremap <silent> <C-Down> :resize +3<CR>
 map <leader>th <C-w>t<C-w>h
 map <leader>tk <C-w>t<C-w>k
 """"""""""""""""""""""""""""""""""""""""
-" => Tab - Indent, Shift+Tab - Unindent
+" => Tab - Indent, S-Tab - Unindent
 """"""""""""""""""""""""""""""""""""""""
 nnoremap <Tab> >>
 nnoremap <S-Tab> <<
@@ -132,6 +127,11 @@ noremap <leader>c :Commentary<CR>
 " => Open terminal inside Vim
 """"""""""""""""""""""""""""""""""""""""
 map <leader>tt :vnew term://powershell.exe<CR>
+""""""""""""""""""""""""""""""""""""""""
+" => Neovide Configs
+""""""""""""""""""""""""""""""""""""""""
+let g:neovide_cursor_animation_length=0.05
+let g:neovide_cursor_trail_length=0.8
 """"""""""""""""""""""""""""""""""""""""
 " => Other
 """"""""""""""""""""""""""""""""""""""""
