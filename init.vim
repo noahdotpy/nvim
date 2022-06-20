@@ -21,9 +21,11 @@ set relativenumber
 " Auto indent
 set autoindent
 
-" Indention
+" Tab settings
 set tabstop=4 " Set tabs to 4 spaces
 set shiftwidth=4
+set softtabstop=4
+
 set expandtab
 set smarttab
 
@@ -35,6 +37,20 @@ set showtabline=2
 
 " Disable auto comment on next line when adding newline
 autocmd FileType * set formatoptions-=cro
+
+" Cursor column for these files
+autocmd FileType python set cursorcolumn
+
+" Smart search
+set ignorecase
+set smartcase
+
+" Search as characters are entered
+set incsearch
+
+" System clipboard keybinds
+nnoremap <leader>y "*y
+nnoremap <leader>p "*p
 """"""""""""""""""""""""""""""""""""""""
 " => Plugins
 """"""""""""""""""""""""""""""""""""""""
