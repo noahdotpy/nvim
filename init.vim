@@ -97,13 +97,12 @@ colorscheme onedark
 """"""""""""""""""""""""""""""""""""""""
 " => Source other files
 """"""""""""""""""""""""""""""""""""""""
-" Windows
-source $HOME/Appdata/Local/nvim/airline.vim
-source $HOME/Appdata/Local/nvim/closetag.vim
-source $HOME/Appdata/Local/nvim/which-key.vim
-source $HOME/Appdata/Local/nvim/coc.vim
-source $HOME/Appdata/Local/nvim/nerdtree.vim
-source $HOME/Appdata/Local/nvim/tagbar.vim
+source $HOME/.config/nvim/airline.vim
+source $HOME/.config/nvim/closetag.vim
+source $HOME/.config/nvim/which-key.vim
+source $HOME/.config/nvim/coc.vim
+source $HOME/.config/nvim/nerdtree.vim
+source $HOME/.config/nvim/tagbar.vim
 """"""""""""""""""""""""""""""""""""""""
 " => Splits and tabbed files
 """"""""""""""""""""""""""""""""""""""""
