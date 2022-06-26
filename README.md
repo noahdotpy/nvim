@@ -4,4 +4,6 @@
 </p>
 
 <h2>Installation!</h2>
-<pre>git clone https://github.com/noahdotpy/nvim.git ~/.config/nvim</pre>
+<p>Get <a href="https://github.com/junegunn/vim-plug">vim-plug</a> for neovim!</p>
+<p>Clone the repo into your neovim config directory with: <code>git clone https://github.com/noahdotpy/nvim.git ~/.config/nvim</code></p>
+<p>Run <code>:PlugInstall</code> in neovim</p>
